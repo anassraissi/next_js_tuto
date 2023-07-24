@@ -1,14 +1,14 @@
-import ArticleStyle from '../styles/articles.module.css'
-const ArticlesList = ({articles}) => {
-  return (
-    <div className={ArticleStyle.grid}>
-                {articles.map((article)=>(
-            
-                 <h3>{article.title}</h3>
+import ArticleItem from './ArticleItem'
+import articleStyles from '../styles/articles.module.css'
 
-                 ))}
+const ArticleList = ({ articles }) => {
+  return (
+    <div className={articleStyles.grid}>
+      {articles.map((article) => (
+        <ArticleItem article={article} />
+      ))}
     </div>
   )
 }
 
-export default ArticlesList
+export default ArticleList
