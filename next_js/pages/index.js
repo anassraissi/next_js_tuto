@@ -27,3 +27,9 @@ export const getStaticProps=async()=>{
       }
   }
 }
+/**
+ * the getStaticProps method. In Next.js,
+ *  getStaticProps is a special function used in static site generation (SSG).
+ *  It runs at build time and fetches data, which is then passed as props to the page component.
+ *  This data will be the same for all users visiting the page, as it's generated during build time.
+ */
