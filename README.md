@@ -15,5 +15,18 @@ next js allows the first page load to be rendred by the server,wich is great for
 ```
 npx create-next-app
 ```
+# Deploy project in static web page 
+```
+Then, run npm run build to build your application. Finally, run npm run start to start the Node.js server. This server supports all features of Next.js.
+```
+# back to dev server (local)
+ ```
+ npm run dev
+ 
+```
+
+
+
+
 
 
